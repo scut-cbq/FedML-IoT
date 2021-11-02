@@ -1,0 +1,5 @@
+2021-09-14 00:58:38,104 INFO    MainThread:1323 [internal.py:wandb_internal():86] W&B internal server running at pid: 1323, started at: 2021-09-14 00:58:38.104272
+2021-09-14 00:58:38,111 INFO    WriterThread:1323 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005836-3ub2hjhd/run-3ub2hjhd.wandb
+2021-09-14 00:58:38,111 DEBUG   HandlerThread:1323 [handler.py:handle_request():126] handle_request: check_version
+2021-09-14 00:58:38,115 DEBUG   SenderThread:1323 [sender.py:send():182] send: header
+2021-09-14 00:58:38,115 DEBUG   SenderThread:1323 [sender.py:send_request():196] send_request: check_version

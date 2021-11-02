@@ -1,0 +1,113 @@
+
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:/home/cbq/sourcecode/FedML-IoT
+E0916 00:39:31.765618300   13454 socket_utils_common_posix.cc:223] check for SO_REUSEPORT: {"created":"@1631723971.765601200","description":"Protocol not available","errno":92,"file":"src/core/lib/iomgr/socket_utils_common_posix.cc","file_line":202,"os_error":"Protocol not available","syscall":"getsockopt(SO_REUSEPORT)"}
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+server started. Listening on port 50000
+done running
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO:werkzeug:127.0.0.1 - - [16/Sep/2021 00:39:39] "[37mPOST /api/register?device_id=0 HTTP/1.1[39m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Sep/2021 00:39:39] "[37mGET //get-preprocessed-data/0 HTTP/1.1[39m" 200 -
+INFO:root:client_0 got something from client_1 from ip address 127.0.0.1
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = False
+INFO:werkzeug:127.0.0.1 - - [16/Sep/2021 00:40:25] "[37mPOST /api/register?device_id=1 HTTP/1.1[39m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Sep/2021 00:40:25] "[37mGET //get-preprocessed-data/1 HTTP/1.1[39m" 200 -
+INFO:root:client_0 got something from client_2 from ip address 127.0.0.1
+INFO:root:add_model. index = 1
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 2
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 0
+INFO:root:{'training_acc': 0.2235177737415672, 'training_loss': 2.23514063637578}
+INFO:root:{'test_acc': 0.22330755664088997, 'test_loss': 2.235385404886829}
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:sending message to port 50001
+INFO:root:sent
+INFO:root:send_message_sync_model_to_client. receive_id = 2
+INFO:root:sending message to port 50002
+INFO:root:client_0 got something from client_1 from ip address 127.0.0.1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = False
+INFO:root:client_0 got something from client_2 from ip address 127.0.0.1
+INFO:root:add_model. index = 1
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 2
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 1
+indexes of clients: [1, 1]
+size = 3
+json string size = 174955
+json string size = 174955
+INFO:root:{'training_acc': 0.2668980280228334, 'training_loss': 2.199976099853186}
+INFO:root:{'test_acc': 0.2718762718762719, 'test_loss': 2.199999185061943}
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:sending message to port 50001
+INFO:root:sent
+INFO:root:send_message_sync_model_to_client. receive_id = 2
+INFO:root:sending message to port 50002
+INFO:root:client_0 got something from client_1 from ip address 127.0.0.1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = False
+INFO:root:client_0 got something from client_2 from ip address 127.0.0.1
+INFO:root:add_model. index = 1
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 2
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 2
+indexes of clients: [2, 2]
+size = 3
+json string size = 174794
+json string size = 174794
+INFO:root:{'training_acc': 0.3763784379865075, 'training_loss': 2.1145768652369954}
+INFO:root:{'test_acc': 0.38285171618504954, 'test_loss': 2.1141334412751633}
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:sending message to port 50001
+INFO:root:sent
+INFO:root:send_message_sync_model_to_client. receive_id = 2
+INFO:root:sending message to port 50002
+INFO:root:client_0 got something from client_1 from ip address 127.0.0.1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = False
+INFO:root:client_0 got something from client_2 from ip address 127.0.0.1
+indexes of clients: [3, 3]
+size = 3
+json string size = 174769
+json string size = 174769
+INFO:root:add_model. index = 1
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 2
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 3
+INFO:root:{'training_acc': 0.40881227296315514, 'training_loss': 2.0840989610631664}
+INFO:root:{'test_acc': 0.41419074752408086, 'test_loss': 2.082218843728421}
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:sending message to port 50001
+INFO:root:sent
+INFO:root:send_message_sync_model_to_client. receive_id = 2
+INFO:root:sending message to port 50002
+INFO:root:client_0 got something from client_1 from ip address 127.0.0.1
+indexes of clients: [4, 4]
+size = 3
+json string size = 174811
+json string size = 174811
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = False
+INFO:root:client_0 got something from client_2 from ip address 127.0.0.1
+INFO:root:add_model. index = 1
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 2
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 4
+INFO:root:{'training_acc': 0.49889724961079396, 'training_loss': 2.0361842834905417}
+INFO:root:{'test_acc': 0.507665174331841, 'test_loss': 2.0331286943811135}
+INFO:root:__finish server

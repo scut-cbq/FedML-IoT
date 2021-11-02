@@ -1,0 +1,22 @@
+{
+    "os": "Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.29",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-10-28T10:21:40.629667",
+    "startedAt": "2021-10-28T10:21:37.395557",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/cbq/sourcecode/FedML-IoT/FedML/fedml_server/FedML-Server/executor/app.py",
+    "codePath": "FedML/fedml_server/FedML-Server/executor/app.py",
+    "git": {
+        "remote": "git@github.com:scut-cbq/FedML-IoT.git",
+        "commit": "ab12b0d32761508f8be9a601c87bdf5848fff99c"
+    },
+    "email": "1269935910@qq.com",
+    "root": "/home/cbq/sourcecode/FedML-IoT",
+    "host": "LAPTOP-UQ8GNGTK",
+    "username": "cbq",
+    "executable": "/bin/python3"
+}

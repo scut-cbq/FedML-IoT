@@ -1,0 +1,81 @@
+2021-09-09 14:19:00,006 INFO    MainThread:354 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-09 14:19:00,007 INFO    MainThread:354 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-09 14:19:00,009 INFO    MainThread:354 [wandb_init.py:_log_setup():342] Logging user logs to /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_141859-2tv82d3p/logs/debug.log
+2021-09-09 14:19:00,010 INFO    MainThread:354 [wandb_init.py:_log_setup():343] Logging internal logs to /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_141859-2tv82d3p/logs/debug-internal.log
+2021-09-09 14:19:00,011 INFO    MainThread:354 [wandb_init.py:init():375] calling init triggers
+2021-09-09 14:19:00,012 INFO    MainThread:354 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {'model': 'lr', 'dataset': 'mnist', 'data_dir': '"./../../../data/mnist"', 'partition_method': 'hetero', 'partition_alpha': 0.5, 'client_num_in_total': 1000, 'client_num_per_round': 2, 'batch_size': 10, 'client_optimizer': 'adam', 'lr': 0.03, 'wd': 0.001, 'epochs': 10, 'comm_round': 5, 'is_mobile': 1, 'frequency_of_the_test': 1, 'gpu_server_num': 1, 'gpu_num_per_server': 4, 'ci': 0, 'is_preprocessed': True, 'grpc_ipconfig_path': '../executor/grpc_ipconfig.csv'}
+2021-09-09 14:19:00,013 INFO    MainThread:354 [wandb_init.py:init():424] starting backend
+2021-09-09 14:19:00,013 INFO    MainThread:354 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-09 14:19:00,285 INFO    MainThread:354 [backend.py:ensure_launched():135] starting backend process...
+2021-09-09 14:19:00,494 INFO    MainThread:354 [backend.py:ensure_launched():139] started backend process with pid: 456
+2021-09-09 14:19:00,497 INFO    MainThread:354 [wandb_init.py:init():429] backend started and connected
+2021-09-09 14:19:00,508 INFO    MainThread:354 [wandb_init.py:init():477] updated telemetry
+2021-09-09 14:19:00,510 INFO    MainThread:354 [wandb_init.py:init():500] communicating current version
+2021-09-09 14:19:05,525 INFO    MainThread:354 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-09 14:19:28,288 ERROR   Thread-7  :354 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 996, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f1b5f9e86a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f1b5f9e86a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cbq/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/cbq/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/cbq/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/cbq/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/cbq/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f1b5f9e86a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2021-09-09 14:19:35,543 INFO    MainThread:354 [interface.py:_communicate_run():651] couldn't get run from backend
+2021-09-09 14:19:35,544 ERROR   MainThread:354 [wandb_init.py:init():518] backend process timed out
+2021-09-09 14:19:35,545 ERROR   MainThread:354 [wandb_init.py:init():527] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error

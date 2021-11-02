@@ -1,0 +1,8 @@
+
+INFO:root:load_data. dataset_name = mnist
+server started. Listening on port 50000
+json string size = 175021
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:/home/cbq/sourcecode/FedML-IoT
+E0915 20:57:00.550581200   28282 socket_utils_common_posix.cc:223] check for SO_REUSEPORT: {"created":"@1631710620.550566200","description":"Protocol not available","errno":92,"file":"src/core/lib/iomgr/socket_utils_common_posix.cc","file_line":202,"os_error":"Protocol not available","syscall":"getsockopt(SO_REUSEPORT)"}
+INFO:root:client_indexes = [993 859]

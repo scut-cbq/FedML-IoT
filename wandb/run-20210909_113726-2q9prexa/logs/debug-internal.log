@@ -1,0 +1,31 @@
+2021-09-09 11:37:28,632 INFO    MainThread:7500 [internal.py:wandb_internal():86] W&B internal server running at pid: 7500, started at: 2021-09-09 11:37:28.631845
+2021-09-09 11:37:28,639 INFO    WriterThread:7500 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/run-2q9prexa.wandb
+2021-09-09 11:37:28,639 DEBUG   HandlerThread:7500 [handler.py:handle_request():126] handle_request: check_version
+2021-09-09 11:37:28,642 DEBUG   SenderThread:7500 [sender.py:send():182] send: header
+2021-09-09 11:37:28,645 DEBUG   SenderThread:7500 [sender.py:send_request():196] send_request: check_version
+2021-09-09 11:37:28,778 DEBUG   SenderThread:7500 [sender.py:send():182] send: run
+2021-09-09 11:37:29,172 DEBUG   HandlerThread:7500 [handler.py:handle_request():126] handle_request: run_start
+2021-09-09 11:37:29,182 INFO    SenderThread:7500 [dir_watcher.py:__init__():169] watching files in: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files
+2021-09-09 11:37:29,182 INFO    SenderThread:7500 [sender.py:_start_run_threads():740] run started: 2q9prexa with start time 1631158646
+2021-09-09 11:37:29,182 DEBUG   SenderThread:7500 [sender.py:send():182] send: summary
+2021-09-09 11:37:29,184 DEBUG   HandlerThread:7500 [meta.py:__init__():40] meta init
+2021-09-09 11:37:29,185 INFO    SenderThread:7500 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 11:37:29,185 DEBUG   HandlerThread:7500 [meta.py:__init__():54] meta init done
+2021-09-09 11:37:29,185 DEBUG   HandlerThread:7500 [meta.py:probe():211] probe
+2021-09-09 11:37:29,190 DEBUG   HandlerThread:7500 [meta.py:_setup_git():201] setup git
+2021-09-09 11:37:29,306 DEBUG   HandlerThread:7500 [meta.py:_setup_git():208] setup git done
+2021-09-09 11:37:29,307 DEBUG   HandlerThread:7500 [meta.py:_save_pip():58] save pip
+2021-09-09 11:37:29,315 DEBUG   HandlerThread:7500 [meta.py:_save_pip():72] save pip done
+2021-09-09 11:37:29,315 DEBUG   HandlerThread:7500 [meta.py:probe():249] probe done
+2021-09-09 11:37:29,323 DEBUG   SenderThread:7500 [sender.py:send():182] send: files
+2021-09-09 11:37:29,323 INFO    SenderThread:7500 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-09 11:37:29,330 DEBUG   HandlerThread:7500 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:37:29,338 DEBUG   SenderThread:7500 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:37:30,049 INFO    Thread-17 :7500 [upload_job.py:push():137] Uploaded file /tmp/tmpaaov_ywtwandb/1opythgb-wandb-metadata.json
+2021-09-09 11:37:30,196 INFO    Thread-14 :7500 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files/wandb-metadata.json
+2021-09-09 11:37:30,196 INFO    Thread-14 :7500 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files/wandb-summary.json
+2021-09-09 11:37:30,197 INFO    Thread-14 :7500 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files/output.log
+2021-09-09 11:37:30,197 INFO    Thread-14 :7500 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files/requirements.txt
+2021-09-09 11:37:36,237 INFO    Thread-14 :7500 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_113726-2q9prexa/files/output.log
+2021-09-09 11:37:44,632 DEBUG   HandlerThread:7500 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:37:44,632 DEBUG   SenderThread:7500 [sender.py:send_request():196] send_request: stop_status

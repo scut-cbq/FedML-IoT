@@ -1,0 +1,3 @@
+training is finished! 
+Namespace(batch_size=10, ci=0, client_num_in_total=1000, client_num_per_round=2, client_optimizer='sgd', comm_round=5, data_dir='"./../../../data/mnist"', dataset='mnist', epochs=10, frequency_of_the_test=1, gpu_num_per_server=4, gpu_server_num=1, grpc_ipconfig_path='grpc_ipconfig.csv', is_mobile=1, is_preprocessed=True, lr=0.03, model='lr', partition_alpha=0.5, partition_method='hetero', wd=0.001)
+, wd=0.001)

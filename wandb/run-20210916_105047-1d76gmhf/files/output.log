@@ -1,0 +1,14 @@
+
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:/home/cbq/sourcecode/FedML-IoT
+E0916 10:51:16.313724400    1032 socket_utils_common_posix.cc:223] check for SO_REUSEPORT: {"created":"@1631760676.313710500","description":"Protocol not available","errno":92,"file":"src/core/lib/iomgr/socket_utils_common_posix.cc","file_line":202,"os_error":"Protocol not available","syscall":"getsockopt(SO_REUSEPORT)"}
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+server started. Listening on port 50000
+done running
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO:werkzeug:127.0.0.1 - - [16/Sep/2021 10:51:22] "[37mPOST /api/register?device_id=0 HTTP/1.1[39m" 200 -

@@ -1,0 +1,52 @@
+2021-09-09 11:22:38,442 INFO    MainThread:5491 [internal.py:wandb_internal():86] W&B internal server running at pid: 5491, started at: 2021-09-09 11:22:38.437744
+2021-09-09 11:22:38,473 INFO    WriterThread:5491 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/run-14ypwyrm.wandb
+2021-09-09 11:22:38,473 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: check_version
+2021-09-09 11:22:38,483 DEBUG   SenderThread:5491 [sender.py:send():182] send: header
+2021-09-09 11:22:38,483 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: check_version
+2021-09-09 11:22:38,645 DEBUG   SenderThread:5491 [sender.py:send():182] send: run
+2021-09-09 11:22:39,094 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: run_start
+2021-09-09 11:22:39,106 DEBUG   HandlerThread:5491 [meta.py:__init__():40] meta init
+2021-09-09 11:22:39,107 DEBUG   HandlerThread:5491 [meta.py:__init__():54] meta init done
+2021-09-09 11:22:39,107 INFO    SenderThread:5491 [dir_watcher.py:__init__():169] watching files in: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files
+2021-09-09 11:22:39,107 DEBUG   HandlerThread:5491 [meta.py:probe():211] probe
+2021-09-09 11:22:39,108 INFO    SenderThread:5491 [sender.py:_start_run_threads():740] run started: 14ypwyrm with start time 1631157756
+2021-09-09 11:22:39,109 DEBUG   SenderThread:5491 [sender.py:send():182] send: summary
+2021-09-09 11:22:39,110 INFO    SenderThread:5491 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 11:22:39,112 DEBUG   HandlerThread:5491 [meta.py:_setup_git():201] setup git
+2021-09-09 11:22:39,213 DEBUG   HandlerThread:5491 [meta.py:_setup_git():208] setup git done
+2021-09-09 11:22:39,213 DEBUG   HandlerThread:5491 [meta.py:_save_pip():58] save pip
+2021-09-09 11:22:39,221 DEBUG   HandlerThread:5491 [meta.py:_save_pip():72] save pip done
+2021-09-09 11:22:39,221 DEBUG   HandlerThread:5491 [meta.py:probe():249] probe done
+2021-09-09 11:22:39,231 DEBUG   SenderThread:5491 [sender.py:send():182] send: files
+2021-09-09 11:22:39,231 INFO    SenderThread:5491 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-09 11:22:39,247 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:22:39,247 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:22:40,055 INFO    Thread-17 :5491 [upload_job.py:push():137] Uploaded file /tmp/tmpco8qhkznwandb/216l41yb-wandb-metadata.json
+2021-09-09 11:22:40,120 INFO    Thread-14 :5491 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files/requirements.txt
+2021-09-09 11:22:40,120 INFO    Thread-14 :5491 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files/wandb-summary.json
+2021-09-09 11:22:40,120 INFO    Thread-14 :5491 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files/wandb-metadata.json
+2021-09-09 11:22:40,121 INFO    Thread-14 :5491 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files/output.log
+2021-09-09 11:22:42,129 INFO    Thread-14 :5491 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210909_112236-14ypwyrm/files/output.log
+2021-09-09 11:22:54,550 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:22:54,550 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:23:07,308 DEBUG   SenderThread:5491 [sender.py:send():182] send: stats
+2021-09-09 11:23:09,858 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:23:09,859 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:23:25,153 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:23:25,153 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:23:37,512 DEBUG   SenderThread:5491 [sender.py:send():182] send: stats
+2021-09-09 11:23:40,439 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:23:40,439 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:23:55,738 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:23:55,739 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:24:07,726 DEBUG   SenderThread:5491 [sender.py:send():182] send: stats
+2021-09-09 11:24:11,060 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:24:11,061 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:24:26,364 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:24:26,364 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:24:37,933 DEBUG   SenderThread:5491 [sender.py:send():182] send: stats
+2021-09-09 11:24:41,698 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:24:41,698 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:24:56,999 DEBUG   HandlerThread:5491 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 11:24:56,999 DEBUG   SenderThread:5491 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 11:25:08,136 DEBUG   SenderThread:5491 [sender.py:send():182] send: stats

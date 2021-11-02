@@ -1,0 +1,5 @@
+
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = lr, output_dim = 10
+server started. Listening on port 50000
+INFO:root:/home/cbq/sourcecode/FedML-IoT

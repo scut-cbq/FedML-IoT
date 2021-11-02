@@ -1,0 +1,3 @@
+
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = lr, output_dim = 10

@@ -1,0 +1,70 @@
+2021-09-15 20:52:10,892 INFO    MainThread:27931 [internal.py:wandb_internal():86] W&B internal server running at pid: 27931, started at: 2021-09-15 20:52:10.892082
+2021-09-15 20:52:10,898 INFO    WriterThread:27931 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/run-hht08ew6.wandb
+2021-09-15 20:52:10,899 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: check_version
+2021-09-15 20:52:10,902 DEBUG   SenderThread:27931 [sender.py:send():182] send: header
+2021-09-15 20:52:10,902 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: check_version
+2021-09-15 20:52:11,046 DEBUG   SenderThread:27931 [sender.py:send():182] send: run
+2021-09-15 20:52:11,464 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: run_start
+2021-09-15 20:52:11,472 INFO    SenderThread:27931 [dir_watcher.py:__init__():169] watching files in: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files
+2021-09-15 20:52:11,472 INFO    SenderThread:27931 [sender.py:_start_run_threads():740] run started: hht08ew6 with start time 1631710329
+2021-09-15 20:52:11,472 DEBUG   SenderThread:27931 [sender.py:send():182] send: summary
+2021-09-15 20:52:11,473 DEBUG   HandlerThread:27931 [meta.py:__init__():40] meta init
+2021-09-15 20:52:11,473 DEBUG   HandlerThread:27931 [meta.py:__init__():54] meta init done
+2021-09-15 20:52:11,474 DEBUG   HandlerThread:27931 [meta.py:probe():211] probe
+2021-09-15 20:52:11,475 INFO    SenderThread:27931 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-15 20:52:11,477 DEBUG   HandlerThread:27931 [meta.py:_setup_git():201] setup git
+2021-09-15 20:52:11,601 DEBUG   HandlerThread:27931 [meta.py:_setup_git():208] setup git done
+2021-09-15 20:52:11,601 DEBUG   HandlerThread:27931 [meta.py:_save_pip():58] save pip
+2021-09-15 20:52:11,603 DEBUG   HandlerThread:27931 [meta.py:_save_pip():72] save pip done
+2021-09-15 20:52:11,604 DEBUG   HandlerThread:27931 [meta.py:probe():249] probe done
+2021-09-15 20:52:11,613 DEBUG   SenderThread:27931 [sender.py:send():182] send: files
+2021-09-15 20:52:11,613 INFO    SenderThread:27931 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-15 20:52:11,620 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:52:11,620 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:52:12,338 INFO    Thread-17 :27931 [upload_job.py:push():137] Uploaded file /tmp/tmpmtmqb89xwandb/37tvgxao-wandb-metadata.json
+2021-09-15 20:52:12,485 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/wandb-metadata.json
+2021-09-15 20:52:12,485 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/wandb-summary.json
+2021-09-15 20:52:12,485 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/output.log
+2021-09-15 20:52:12,485 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/requirements.txt
+2021-09-15 20:52:14,495 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/output.log
+2021-09-15 20:52:28,818 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:52:28,819 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:52:35,690 INFO    Thread-14 :27931 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210915_205208-hht08ew6/files/output.log
+2021-09-15 20:52:39,709 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:52:45,891 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:52:45,891 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:53:01,183 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:53:01,183 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:53:09,936 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:53:16,540 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:53:16,540 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:53:31,815 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:53:31,815 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:53:40,134 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:53:47,087 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:53:47,088 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:54:02,377 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:54:02,377 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:54:10,354 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:54:17,663 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:54:17,663 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:54:32,943 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:54:32,944 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:54:40,570 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:54:48,224 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:54:48,224 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:55:03,530 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:55:03,530 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:55:10,781 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:55:19,059 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:55:19,059 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:55:34,376 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:55:34,376 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:55:41,036 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:55:50,992 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:55:50,992 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:56:06,293 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:56:06,293 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status
+2021-09-15 20:56:11,261 DEBUG   SenderThread:27931 [sender.py:send():182] send: stats
+2021-09-15 20:56:21,601 DEBUG   HandlerThread:27931 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-15 20:56:21,601 DEBUG   SenderThread:27931 [sender.py:send_request():196] send_request: stop_status

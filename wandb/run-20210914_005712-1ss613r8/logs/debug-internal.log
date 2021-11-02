@@ -1,0 +1,33 @@
+2021-09-14 00:57:15,074 INFO    MainThread:938 [internal.py:wandb_internal():86] W&B internal server running at pid: 938, started at: 2021-09-14 00:57:15.073586
+2021-09-14 00:57:15,081 INFO    WriterThread:938 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/run-1ss613r8.wandb
+2021-09-14 00:57:15,081 DEBUG   HandlerThread:938 [handler.py:handle_request():126] handle_request: check_version
+2021-09-14 00:57:15,085 DEBUG   SenderThread:938 [sender.py:send():182] send: header
+2021-09-14 00:57:15,085 DEBUG   SenderThread:938 [sender.py:send_request():196] send_request: check_version
+2021-09-14 00:57:15,516 DEBUG   SenderThread:938 [sender.py:send():182] send: run
+2021-09-14 00:57:15,914 DEBUG   HandlerThread:938 [handler.py:handle_request():126] handle_request: run_start
+2021-09-14 00:57:15,925 INFO    SenderThread:938 [dir_watcher.py:__init__():169] watching files in: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files
+2021-09-14 00:57:15,925 INFO    SenderThread:938 [sender.py:_start_run_threads():740] run started: 1ss613r8 with start time 1631552233
+2021-09-14 00:57:15,925 DEBUG   SenderThread:938 [sender.py:send():182] send: summary
+2021-09-14 00:57:15,927 DEBUG   HandlerThread:938 [meta.py:__init__():40] meta init
+2021-09-14 00:57:15,927 DEBUG   HandlerThread:938 [meta.py:__init__():54] meta init done
+2021-09-14 00:57:15,927 INFO    SenderThread:938 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-14 00:57:15,927 DEBUG   HandlerThread:938 [meta.py:probe():211] probe
+2021-09-14 00:57:15,932 DEBUG   HandlerThread:938 [meta.py:_setup_git():201] setup git
+2021-09-14 00:57:16,037 DEBUG   HandlerThread:938 [meta.py:_setup_git():208] setup git done
+2021-09-14 00:57:16,038 DEBUG   HandlerThread:938 [meta.py:_save_pip():58] save pip
+2021-09-14 00:57:16,044 DEBUG   HandlerThread:938 [meta.py:_save_pip():72] save pip done
+2021-09-14 00:57:16,045 DEBUG   HandlerThread:938 [meta.py:probe():249] probe done
+2021-09-14 00:57:16,056 DEBUG   SenderThread:938 [sender.py:send():182] send: files
+2021-09-14 00:57:16,057 INFO    SenderThread:938 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-14 00:57:16,065 DEBUG   HandlerThread:938 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-14 00:57:16,073 DEBUG   SenderThread:938 [sender.py:send_request():196] send_request: stop_status
+2021-09-14 00:57:16,807 INFO    Thread-17 :938 [upload_job.py:push():137] Uploaded file /tmp/tmpiyt_c9k5wandb/2g780lb3-wandb-metadata.json
+2021-09-14 00:57:16,934 INFO    Thread-14 :938 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/wandb-summary.json
+2021-09-14 00:57:16,935 INFO    Thread-14 :938 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/wandb-metadata.json
+2021-09-14 00:57:16,935 INFO    Thread-14 :938 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/output.log
+2021-09-14 00:57:16,936 INFO    Thread-14 :938 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/requirements.txt
+2021-09-14 00:57:32,941 DEBUG   HandlerThread:938 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-14 00:57:32,941 DEBUG   SenderThread:938 [sender.py:send_request():196] send_request: stop_status
+2021-09-14 00:57:33,089 INFO    Thread-14 :938 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/output.log
+2021-09-14 00:57:40,128 INFO    Thread-14 :938 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20210914_005712-1ss613r8/files/output.log
+2021-09-14 00:57:44,140 DEBUG   SenderThread:938 [sender.py:send():182] send: stats

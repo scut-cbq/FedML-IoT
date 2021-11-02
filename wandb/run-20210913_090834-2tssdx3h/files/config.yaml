@@ -1,0 +1,78 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+    start_time: 1631495314
+    t:
+      1:
+      - 1
+      4: 3.8.5
+      5: 0.12.1
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 10
+ci:
+  desc: null
+  value: 0
+client_num_in_total:
+  desc: null
+  value: 1000
+client_num_per_round:
+  desc: null
+  value: 2
+client_optimizer:
+  desc: null
+  value: adam
+comm_round:
+  desc: null
+  value: 5
+data_dir:
+  desc: null
+  value: '"./../../../data/mnist"'
+dataset:
+  desc: null
+  value: mnist
+epochs:
+  desc: null
+  value: 10
+frequency_of_the_test:
+  desc: null
+  value: 1
+gpu_num_per_server:
+  desc: null
+  value: 4
+gpu_server_num:
+  desc: null
+  value: 1
+grpc_ipconfig_path:
+  desc: null
+  value: ../executor/grpc_ipconfig.csv
+is_mobile:
+  desc: null
+  value: 1
+is_preprocessed:
+  desc: null
+  value: true
+lr:
+  desc: null
+  value: 0.03
+model:
+  desc: null
+  value: lr
+partition_alpha:
+  desc: null
+  value: 0.5
+partition_method:
+  desc: null
+  value: hetero
+wd:
+  desc: null
+  value: 0.001

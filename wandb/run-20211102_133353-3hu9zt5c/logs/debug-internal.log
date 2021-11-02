@@ -1,0 +1,40 @@
+2021-11-02 13:33:55,072 INFO    MainThread:18227 [internal.py:wandb_internal():86] W&B internal server running at pid: 18227, started at: 2021-11-02 13:33:55.071868
+2021-11-02 13:33:55,111 INFO    WriterThread:18227 [datastore.py:open_for_write():77] open: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/run-3hu9zt5c.wandb
+2021-11-02 13:33:55,112 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: check_version
+2021-11-02 13:33:55,115 DEBUG   SenderThread:18227 [sender.py:send():182] send: header
+2021-11-02 13:33:55,116 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: check_version
+2021-11-02 13:33:55,444 DEBUG   SenderThread:18227 [sender.py:send():182] send: run
+2021-11-02 13:33:55,830 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: run_start
+2021-11-02 13:33:55,841 DEBUG   HandlerThread:18227 [meta.py:__init__():40] meta init
+2021-11-02 13:33:55,842 DEBUG   HandlerThread:18227 [meta.py:__init__():54] meta init done
+2021-11-02 13:33:55,842 DEBUG   HandlerThread:18227 [meta.py:probe():211] probe
+2021-11-02 13:33:55,845 INFO    SenderThread:18227 [dir_watcher.py:__init__():169] watching files in: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files
+2021-11-02 13:33:55,845 INFO    SenderThread:18227 [sender.py:_start_run_threads():740] run started: 3hu9zt5c with start time 1635831233
+2021-11-02 13:33:55,845 DEBUG   SenderThread:18227 [sender.py:send():182] send: summary
+2021-11-02 13:33:55,847 INFO    SenderThread:18227 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-02 13:33:55,848 DEBUG   HandlerThread:18227 [meta.py:_setup_git():201] setup git
+2021-11-02 13:33:55,939 DEBUG   HandlerThread:18227 [meta.py:_setup_git():208] setup git done
+2021-11-02 13:33:55,940 DEBUG   HandlerThread:18227 [meta.py:_save_pip():58] save pip
+2021-11-02 13:33:55,942 DEBUG   HandlerThread:18227 [meta.py:_save_pip():72] save pip done
+2021-11-02 13:33:55,942 DEBUG   HandlerThread:18227 [meta.py:probe():249] probe done
+2021-11-02 13:33:55,952 DEBUG   SenderThread:18227 [sender.py:send():182] send: files
+2021-11-02 13:33:55,952 INFO    SenderThread:18227 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-11-02 13:33:55,961 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-02 13:33:55,962 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: stop_status
+2021-11-02 13:33:56,616 INFO    Thread-17 :18227 [upload_job.py:push():137] Uploaded file /tmp/tmpv23lxw50wandb/sg31sm7s-wandb-metadata.json
+2021-11-02 13:33:56,860 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/output.log
+2021-11-02 13:33:56,861 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/wandb-metadata.json
+2021-11-02 13:33:56,861 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/requirements.txt
+2021-11-02 13:33:56,862 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_created():217] file/dir created: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/wandb-summary.json
+2021-11-02 13:34:13,030 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-02 13:34:13,033 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: stop_status
+2021-11-02 13:34:14,006 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/output.log
+2021-11-02 13:34:20,072 INFO    Thread-15 :18227 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/cbq/sourcecode/FedML-IoT/wandb/run-20211102_133353-3hu9zt5c/files/output.log
+2021-11-02 13:34:24,054 DEBUG   SenderThread:18227 [sender.py:send():182] send: stats
+2021-11-02 13:34:30,012 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-02 13:34:30,012 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: stop_status
+2021-11-02 13:34:45,427 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-02 13:34:45,427 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: stop_status
+2021-11-02 13:34:54,288 DEBUG   SenderThread:18227 [sender.py:send():182] send: stats
+2021-11-02 13:35:00,842 DEBUG   HandlerThread:18227 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-02 13:35:00,842 DEBUG   SenderThread:18227 [sender.py:send_request():196] send_request: stop_status
